@@ -17,7 +17,7 @@ export async function before(m, { conn, match, usedPrefix, command }) {
         let caption = `*اهــلاً  ⌊ ${mentionedUsername} ⌉ كـيـف حـالـك الـيـوم؟ هــل تــحــاول اســتــخــدام〘  ˼ ${usedPrefix + mean} ˹ ?  〙*`;
 
         if (mean) {
-            let imgurl = 'https://telegra.ph/file/311cb0b0ac4693bfbec62.jpg'; // رابط الصورة
+            let imgurl = 'https://telegra.ph/file/c761025b7d8387e2daa1d.jpg'; // رابط الصورة
             let filename = 'imgerror.jpg';
             conn.sendFile(m.chat, imgurl, filename, caption, m, { thumbnail: Buffer.alloc(0), mentions: [who] });
         }
