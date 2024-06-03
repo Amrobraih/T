@@ -525,7 +525,7 @@ export async function handler(chatUpdate) {
                             for (let [jid] of global.owner.filter(([number, _, isDeveloper]) => isDeveloper && number)) {
                                 let data = (await conn.onWhatsApp(jid))[0] || {}
                                 if (data.exists)
-                                    m.reply(`*[ ⚠️ مرحبا سيدي شاركي - ريمورو ساما هذا الامر خربان⚠️ ]*\n\n*—◉ الخطاء:* ${m.plugin}\n*—◉ المستخدم:* ${m.sender}\n*—◉ الامر:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n*❗ ارجو منك اصلاحه في اسرع وقت ممكن#reporte*`.trim(), data.jid)
+                                    m.reply(`*[ ⚠️ مرحبا سيدي عمرو ساما هذا الامر خربان⚠️ ]*\n\n*—◉ الخطاء:* ${m.plugin}\n*—◉ المستخدم:* ${m.sender}\n*—◉ الامر:* ${usedPrefix}${command} ${args.join(' ')}\n\n\`\`\`${text}\`\`\`\n\n*❗ ارجو منك اصلاحه في اسرع وقت ممكن#reporte*`.trim(), data.jid)
                               }
                           m.reply(text)
                       }
@@ -597,7 +597,7 @@ export async function handler(chatUpdate) {
           if (opts['autoread'])
               await this.readMessages([m.key])
 
-        if (!m.fromMem && m.text.match(/(ديابلو|ربيع|شاركي|شارك|شاركي|ريمورو|@966561841257|@966569044652)/gi)) {
+        if (!m.fromMem && m.text.match(/(@غوكو|ربيع|سون غوكو|شارك|ايتشيغو|عمرو|@967774318278|967735038560)/gi)) {
         let emot = pickRandom(["✨", "❤", "😘", "♥️", "😍", "💕", "😎", "🌸", "⭐", "🌺", "🔥"])
         this.sendMessage(m.chat, { react: { text: emot, key: m.key }})}
         function pickRandom(list) { return list[Math.floor(Math.random() * list.length)]}
@@ -624,8 +624,8 @@ export async function handler(chatUpdate) {
             if (chat.welcome) {
                 let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata
                 for (let user of participants) {
-                    let pp = 'https://telegra.ph/file/986b843307bb1f4e2f26e.jpg'
-                    let ppgp = 'https://telegra.ph/file/986b843307bb1f4e2f26e.jpg'
+                    let pp = 'https://telegra.ph/file/16b1fa32455e84bd1b7dd.jpg'
+                    let ppgp = 'https://telegra.ph/file/e7c8ee81c0911d477ccec.jpg'
                     try {
                         pp = await this.profilePictureUrl(user, 'image')
                         ppgp = await this.profilePictureUrl(id, 'image')
@@ -639,7 +639,7 @@ export async function handler(chatUpdate) {
                                 groupicon: ppgp,
                                 membercount: groupMetadata.participants.length,
                                 profile: pp,
-                                background: 'https://telegra.ph/file/3694d5edde3846459647b.jpg'
+                                background: 'https://telegra.ph/file/abbf1c21a9e580e7ec886.jpg'
                             }, 'apikey')
 
                             let lea = API('fgmods', '/api/goodbye', {
@@ -648,7 +648,7 @@ export async function handler(chatUpdate) {
                                 groupicon: ppgp,
                                 membercount: groupMetadata.participants.length,
                                 profile: pp,
-                                background: 'https://telegra.ph/file/3694d5edde3846459647b.jpg'
+                                background: 'https://telegra.ph/file/abbf1c21a9e580e7ec886.jpg'
                             }, 'apikey')
                             this.sendFile(id, pp, 'pp.jpg', text, null, false, { mentions: [user] })
 
@@ -688,8 +688,8 @@ export async function callUpdate(callUpdate) {
     let callmsg = await this.reply(nk.from, `مرحبا *@${nk.from.split('@')[0]}*, ال ${nk.isVideo ? 'مكالمات فيديو' : 'المكالمات'} غير مسموح به ، سيتم حظرك.\n-\nإذا اتصلت بالخطأ ، فاتصل بمنشئ المحتوى الخاص بي لإلغاء حظرك!`, false, { mentions: [nk.from] })
     //let data = global.owner.filter(([id, isCreator]) => id && isCreator)
     //await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-     let vcard = `◤𝑺𝒉𝒂𝒓𝒌𝒚あ𝐒𝐚𝐦𝐚◢:[❗]كلم الرقم ده - المطور.\nName:𝑺𝒉𝒂𝒓𝒌𝒚あ𝐒𝐚𝐦𝐚\n`
-    await this.sendMessage(nk.from, { contacts: { displayName: '𝐵𝑌:𝑺𝒉𝒂𝒓𝒌𝒚あ𝐒𝐚𝐦𝐚', contacts: [{ vcard }] }}, {quoted: callmsg})
+     let vcard = `◤𝑮𝒐𝒌𝒖あ𝐒𝐚𝐦𝐚◢:[❗]كلم الرقم ده - المطور.\nName:𝑮𝒐𝒌𝒖あ𝐒𝐚𝐦𝐚\n`
+    await this.sendMessage(nk.from, { contacts: { displayName: '𝐵𝑌:𝑮𝒐𝒌𝒖あ𝐒𝐚𝐦𝐚', contacts: [{ vcard }] }}, {quoted: callmsg})
     await this.updateBlockStatus(nk.from, 'block')
     }
     }
@@ -737,7 +737,7 @@ global.dfail = (type, m, conn) => {
         restrict: '*الــمــيــزه هــاذي الــمــطــور لــغــاهــا⭐!*'
     }[type];
 
-        let imgurl = 'https://telegra.ph/file/311cb0b0ac4693bfbec62.jpg'; // رابط الصورة
+        let imgurl = 'https://telegra.ph/file/7325caaa70ebf18de7324.jpg'; // رابط الصورة
         let filename = 'imgerror.jpg'; // اسم الملف
 
         if (msg) return conn.sendFile(m.chat, imgurl, filename, msg, m);
