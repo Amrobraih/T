@@ -2,7 +2,7 @@ const imglist = './src/menu-owner.png'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems })  => conn.sendFile(m.chat, imglist, 'menu-owner.png', `
 *✥━═━═• 《•﹝📜﹞•》•═━═━✥*
 
-*❮ اوامر مطور' ريمورو'🤖 ❯*
+*❮ اوامر مطور' عــمـرو'🤖 ❯*
 
 *✥━═━═━•《•♦•》•━═━═━✥*
 
@@ -31,7 +31,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isP
 ❒┇ addxp
 ❒┇ advenadventureture
 
-*بـــ᯽𝐷𝐼𝐴𝐵𝐿𝑂᯽ـــوت*
+*بـــ᯽𝗚𝗼𝗸𝘂᯽ـــوت*
 
 ❆╼━━❆ •﹝📜﹞• ❆━━╾❆
 `.trim(), m)
