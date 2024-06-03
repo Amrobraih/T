@@ -8,9 +8,9 @@ let done = '🌀';
  let teks = ` 
  ${pickRandom([`*╭━━━[ اسـتـمـارة ]━━━━⬣*
 *✦↜╎ ﹝الأستقبال﹞*
-~*https://chat.whatsapp.com/F311s7hz09OFi1yvxQFfQx*~
+~*https://chat.whatsapp.com/EbzeqqSjqsMI2oDrjSdT3g*~
 *▢ رابط موثوق ⇧✅⇧*
-*.¸¸ ❝˼𝐷𝐼𝐴𝐵𝐿𝑂᯽𝐵𝑂𝑇˼❝ ¸¸.*`])} 
+*.¸¸ ❝˼𝗚𝗼𝗸𝘂᯽𝐵𝑂𝑇˼❝ ¸¸.*`])} 
  `.trim() 
  conn.sendFile(m.chat, a, null, teks, m)}
  
