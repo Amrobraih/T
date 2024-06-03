@@ -3,11 +3,11 @@ let handler = async (m, { conn }) => {
   let name = conn.getName(who);
   let mentionedUsername = `@${who.replace(/@.+/, '')}`; // اسم المستخدم المنشن
 
-  let imgurl = 'https://telegra.ph/file/311cb0b0ac4693bfbec62.jpg'; // رابط الصورة
+  let imgurl = 'https://telegra.ph/file/c761025b7d8387e2daa1d.jpg'; // رابط الصورة
   let filename = 'imgerror.jpg'; // اسم الملف
 
   // رسالة مع التعديل المطلوب
-  let msg = `*مــرحــبًــا ⌊ ${mentionedUsername} ⌉ انـا ديـابـلـو • تـحـتـاج الـى مـسـاعـدة؟ ، اكـتـب﹙.اوامــر﹚*\n\n> *مـمـنـوع اسـتـخـدام الـبـوت فـي الـدردشـات الـخـاصـة!*`;
+  let msg = `*مــرحــبًــا ⌊ ${mentionedUsername} ⌉ انـا غـوكـو • تـحـتـاج الـى مـسـاعـدة؟ ، اكـتـب﹙.اوامــر﹚*\n\n> *مـمـنـوع اسـتـخـدام الـبـوت فـي الـدردشـات الـخـاصـة!*`;
 
   conn.sendFile(m.chat, imgurl, filename, msg, m, false, { thumbnail: Buffer.alloc(0), mentions: [who] });
 };
