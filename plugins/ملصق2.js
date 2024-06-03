@@ -17,23 +17,23 @@ let handler = async (m, { conn }) => {
   if (randomNumber === 0) {
     sticker = await createSticker(false, img1, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝚂𝚑𝚊𝚛𝚔𝚢᯽𝚂𝚊𝚖𝚊あ', '', 20);
   } else if (randomNumber === 1) {
-    sticker = await createSticker(false, img2, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝚂𝚑𝚊𝚛𝚔𝚢᯽𝚂𝚊𝚖𝚊あ', '', 20);
+    sticker = await createSticker(false, img2, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝑮𝒐𝒌𝒖᯽𝚂𝚊𝚖𝚊あ', '', 20);
   } else if (randomNumber === 2) {
-    sticker = await createSticker(false, img3, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝚂𝚑𝚊𝚛𝚔𝚢᯽𝚂𝚊𝚖𝚊あ', '', 20);
+    sticker = await createSticker(false, img3, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝑮𝒐𝒌𝒖᯽𝚂𝚊𝚖𝚊あ', '', 20);
   } else if (randomNumber === 3) {
-    sticker = await createSticker(false, img4, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝚂𝚑𝚊𝚛𝚔𝚢᯽𝚂𝚊𝚖𝚊あ', '', 20);
+    sticker = await createSticker(false, img4, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝑮𝒐𝒌𝒖᯽𝚂𝚊𝚖𝚊あ', '', 20);
   } else if (randomNumber === 4) {
-    sticker = await createSticker(false, img5, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝚂𝚑𝚊𝚛𝚔𝚢᯽𝚂𝚊𝚖𝚊あ', '', 20);
+    sticker = await createSticker(false, img5, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝑮𝒐𝒌𝒖᯽𝚂𝚊𝚖𝚊あ', '', 20);
   } else if (randomNumber === 5) {
-    sticker = await createSticker(false, img6, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝚂𝚑𝚊𝚛𝚔𝚢᯽𝚂𝚊𝚖𝚊あ', '', 20);
+    sticker = await createSticker(false, img6, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝑮𝒐𝒌𝒖᯽𝚂𝚊𝚖𝚊あ', '', 20);
   } else if (randomNumber === 6) {
-    sticker = await createSticker(false, img7, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝚂𝚑𝚊𝚛𝚔𝚢᯽𝚂𝚊𝚖𝚊あ', '', 20);
+    sticker = await createSticker(false, img7, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝑮𝒐𝒌𝒖᯽𝚂𝚊𝚖𝚊あ', '', 20);
   } else if (randomNumber === 7) {
-    sticker = await createSticker(false, img8, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝚂𝚑𝚊𝚛𝚔𝚢᯽𝚂𝚊𝚖𝚊あ', '', 20);
+    sticker = await createSticker(false, img8, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝑮𝒐𝒌𝒖᯽𝚂𝚊𝚖𝚊あ', '', 20);
   } else if (randomNumber === 8) {
-    sticker = await createSticker(false, img9, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝚂𝚑𝚊𝚛𝚔𝚢᯽𝚂𝚊𝚖𝚊あ', '', 20);
+    sticker = await createSticker(false, img9, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝑮𝒐𝒌𝒖᯽𝚂𝚊𝚖𝚊あ', '', 20);
   } else if (randomNumber === 9) {
-    sticker = await createSticker(false, img10, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝚂𝚑𝚊𝚛𝚔𝚢᯽𝚂𝚊𝚖𝚊あ', '', 20);
+    sticker = await createSticker(false, img10, 'تــمــد يــدك اكــســرهــا˼😊˹\ 𝑮𝒐𝒌𝒖᯽𝚂𝚊𝚖𝚊あ', '', 20);
   } else if (randomNumber === 10) {
 
   }
@@ -41,7 +41,7 @@ let handler = async (m, { conn }) => {
   m.reply(sticker);
 };
 
-handler.customPrefix = /^(وينك|كيفك|شتسوي|شتسوي؟|ايش تسوي؟|كيفك؟|ديابلو شتسوي|ديابلو شتسوي؟|ايش تسوي)$/i;
+handler.customPrefix = /^(وينك|كيفك|شتسوي|شتسوي؟|ايش تسوي؟|كيفك؟|غوكو شتسوي|غوكو شتسوي؟|ايش تسوي)$/i;
 handler.command = new RegExp;
 
 export default handler;
