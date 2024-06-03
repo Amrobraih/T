@@ -9,10 +9,10 @@ import moment from 'moment-timezone'
 import { en, es, id, ar, pt } from './lib/idiomas/total-idiomas.js' 
 
 global.owner = [
-  ['+966561841257', '𝚂𝚑𝚊𝚛𝚔𝚢᯽𝚂𝚊𝚖𝚊あ', false],
-  ['+966540235070', '𝚂𝚑𝚊𝚛𝚔𝚢᯽𝚂𝚊𝚖𝚊あ', true],
-  ['', '𝚂𝚑𝚊𝚛𝚔𝚢᯽𝚂𝚊𝚖𝚊あ', false],
-  ['', '𝚂𝚑𝚊𝚛𝚔𝚢᯽𝚂𝚊𝚖𝚊あ', false],
+  ['+967774318278', '𝜜𝑴𝑹𝑶 𝑲𝑯𝜜𝑳𝑰𝑫', false],
+  ['+967735038560', '𝑮𝒐𝒌𝒖᯽𝚂𝚊𝚖𝚊あ', true],
+  ['', '𝑮𝒐𝒌𝒖᯽𝚂𝚊𝚖𝚊あ', false],
+  ['', '𝑮𝒐𝒌𝒖᯽𝚂𝚊𝚖𝚊あ', false],
 ] //Number of owners
 
 global.mods = ['917605902011','3246024864656'] 
@@ -50,10 +50,10 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = '𝐷𝐼𝐴𝐵𝐿𝑂᯽𝐵𝑂𝑇'
+global.botname = '𝑮𝒐𝒌𝒖᯽𝐵𝑂𝑇'
 global.premium = 'true'
 global.packname = 'تــمــد يــدك اكــســرهــا˼😊˹' 
-global.author = '𝚂𝚑𝚊𝚛𝚔𝚢᯽𝚂𝚊𝚖𝚊あ' 
+global.author = '𝑮𝒐𝒌𝒖᯽𝚂𝚊𝚖𝚊あ' 
 global.igfg = 
 global.dygp = 
 global.fgsc = 
@@ -85,8 +85,8 @@ global.lenguajeGB = es  //Idioma de The-ShadowBot-MD, Ejemplo: es | en | pt...
 
 //⊱ ━━━━━.⋅ Información ⋅.━━━━ ⊰
 
-global.wm = '𝐷𝐼𝐴𝐵𝐿𝑂᯽𝐵𝑂𝑇'
-global.igfg = '𝐵𝑌:𝚂𝚑𝚊𝚛𝚔𝚢᯽𝚂𝚊𝚖𝚊あ'
+global.wm = '𝗚𝗼𝗸𝘂᯽𝐵𝑂𝑇'
+global.igfg = '𝐵𝑌:𝑮𝒐𝒌𝒖᯽𝚂𝚊𝚖𝚊あ'
 global.wait = '*⌛ _انتظر لحظة..._ ▬▭▭▭▭▭▭*'
 global.waitt = '*⌛ _انتظر لحظة..._ ▬▬▭▭▭*'
 global.waittt = '*⌛ _انتظر لحظة..._ ▬▬▬▬▭▭*'
@@ -95,20 +95,20 @@ global.waitttt = '*⌛ _انتظر لحظة..._ ▬▬▬▬▬▬▭*'
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.vs = '1.4.9'
-global.lb = '𝐵𝑌:𝚂𝚑𝚊𝚛𝚔𝚢᯽𝚂𝚊𝚖𝚊あ'
+global.lb = '𝐵𝑌:𝑮𝒐𝒌𝒖᯽𝚂𝚊𝚖𝚊あ'
 global.yt = ''
-global.ig = 'wa.me/966540235070'
+global.ig = 'wa.me/967735038560'
 global.md = ''
-global.fb = 'wa.me/966540235070'
+global.fb = 'wa.me/967774318278'
 
-global.nna = 'wa.me/966540235070' //تحديث ، معلومات عن الروبوت
-global.nn = 'wa.me/966540235070' // جروب 1
-global.nnn = 'wa.me/966540235070' //جروب 2
-global.nnnt = 'wa.me/966540235070' //Grupo del Colaboracion
-global.nnntt = 'wa.me/966540235070' //Grupo COL 2 
-global.nnnttt = 'wa.me/966540235070' //enlace lolibot
-global.nnntttt = 'wa.me/966540235070' //Grupo ayuda sobre el bot
-global.asistencia = 'wa.me/966540235070' //Dudas? escríbeme...G
+global.nna = 'wa.me/967735038560' //تحديث ، معلومات عن الروبوت
+global.nn = 'wa.me/967735038560' // جروب 1
+global.nnn = 'wa.me/967735038560' //جروب 2
+global.nnnt = 'wa.me/967735038560' //Grupo del Colaboracion
+global.nnntt = 'wa.me/967735038560' //Grupo COL 2 
+global.nnnttt = 'wa.me/967735038560' //enlace lolibot
+global.nnntttt = 'wa.me/967735038560' //Grupo ayuda sobre el bot
+global.asistencia = 'wa.me/967774318278' //Dudas? escríbeme...G
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -133,7 +133,7 @@ global.exito = eg
 
 //━━━━━━━━━━━━━━ img ━━━━━━━━━
 
-global.img4 = 'https://telegra.ph/file/1c0df3c550addd14ef58c.jpg' //prem
+global.img4 = 'https://telegra.ph/file/e5ced6dea43c8fc260b98.jpg' //prem
 
 global.img5 = ''
 global.img6 = ''
@@ -141,16 +141,16 @@ global.img7 = ''
 global.img8 = ''
 global.img9 = ''
 
-global.img10 = 'https://telegra.ph/file/8c0bfff623ca0a5582710.jpg'
-global.img11 = 'https://telegra.ph/file/5adbd7bfb6afa40ce5045.jpg'
-global.img12 = 'https://telegra.ph/file/86f4d8e6bfb7ba044994f.jpg'
-global.img13 = 'https://telegra.ph/file/6ed2ee2384f8a505966ee.jpg'
-global.img14 = 'https://telegra.ph/file/6409fc05085b0b47edb4c.jpg'
-global.img15 = 'https://telegra.ph/file/d7ae77d1178f9de50825c.jpg'
+global.img10 = 'https://telegra.ph/file/e5ced6dea43c8fc260b98.jpg'
+global.img11 = 'https://telegra.ph/file/e5ced6dea43c8fc260b98.jpg'
+global.img12 = 'https://telegra.ph/file/e5ced6dea43c8fc260b98.jpg'
+global.img13 = 'https://telegra.ph/file/e5ced6dea43c8fc260b98.jpg'
+global.img14 = 'https://telegra.ph/file/abbf1c21a9e580e7ec886.jpg'
+global.img15 = 'https://telegra.ph/file/abbf1c21a9e580e7ec886.jpg'
 
-global.img16 = 'https://telegra.ph/file/86f4d8e6bfb7ba044994f.jpg' //+18
+global.img16 = 'https://telegra.ph/file/8bf08cc77e9eb606788b8.jpg' //+18
 
-global.img17 = 'https://telegra.ph/file/6409fc05085b0b47edb4c.jpg'
+global.img17 = 'https://telegra.ph/file/8bf08cc77e9eb606788b8.jpg'
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
