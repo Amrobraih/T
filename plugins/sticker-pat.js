@@ -8,7 +8,7 @@ if(!m.mentionedJid.length) m.mentionedJid.push(m.sender)
 let res = await fetch('https://api.waifu.pics/sfw/pat')
 let json = await res.json()
 let { url } = json
-let stiker = await sticker(null, url, `+${m.sender.split('@')[0]} 𝐵𝑌:𝑺𝐻𝐴𝐷𝑂𝑊&𝐸𝐿𝐺𝐴𝑍𝐴𝑅 ${m.mentionedJid.map((user)=>(user === m.sender)? '𝐵𝑌:𝑺𝐻𝐴𝐷𝑂𝑊&𝐸𝐿𝐺𝐴𝑍𝐴𝑅': `+${user.split('@')[0]}`).join(', ')}`)
+let stiker = await sticker(null, url, `+${m.sender.split('@')[0]} 𝐵𝑌:𝜜𝑴𝑹𝑶 𝑲𝑯𝜜𝑳𝑰𝑫 ${m.mentionedJid.map((user)=>(user === m.sender)? '𝐵𝑌:𝑺𝐻𝐴𝐷𝑂𝑊&𝐸𝐿𝐺𝐴𝑍𝐴𝑅': `+${user.split('@')[0]}`).join(', ')}`)
 conn.sendFile(m.chat, stiker, null, { asSticker: true })
 } catch (e) { }}
 handler.command = /^(ملصق-انمي)$/i
