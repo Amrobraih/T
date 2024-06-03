@@ -1,13 +1,13 @@
 {
-  "name": "whatsapp-bot (DIABLO-BOT)",
+  "name": "whatsapp-bot (GOKU-BOT)",
   "description": "Whatsapp bot.",
   "keywords": ["whatsapp bot"],
-  "logo": "https://telegra.ph/file/c5aee23bb237b912ca6bf.jpg",
+  "logo": "https://telegra.ph/file/c761025b7d8387e2daa1d.jpg",
   "repository": "https://github.com/SharkYTB/DIABLO-BOT",
   "stack": "container",
   "env": {
      "DK3MK": {
-      "description": "diablo bot",
+      "description": "goku bot",
       "required": false,
       "value": "SharkYTB"
     }
