@@ -112,7 +112,7 @@ global.loadDatabase = async function loadDatabase() {
     global.db.chain = chain(global.db.data)
 }
 loadDatabase()
-global.authFile = opts._[0] || '𝚂𝚑𝚊𝚛𝚔𝚢 𝚂𝚊𝚖𝚊';
+global.authFile = opts._[0] || '𝑮𝒐𝒌𝒖 𝚂𝚊𝚖𝚊';
 console.log(`Load AuthFile from   ${global.authFile}`);
 const { state, saveCreds } = await useMultiFileAuthState(global.authFile);
 const { version, isLatest } = await fetchLatestBaileysVersion();
@@ -122,7 +122,7 @@ const connectionOptions = {
     printQRInTerminal: true,
     auth: state,
     logger: pino({ level: "silent" }),
-    browser: ['𝑩𝒚 𝚂𝚑𝚊𝚛𝚔𝚢 𝚂𝚊𝚖𝚊', 'Safari', '3.0.0'],
+    browser: ['𝑩𝒚 𝑮𝒐𝒌𝒖 𝚂𝚊𝚖𝚊', 'Safari', '3.0.0'],
     syncFullHistory: false,
     patchMessageBeforeSending: (message) => {
         const requiresPatch = !!(
