@@ -1,4 +1,4 @@
-# DIABLO-BOT
+# 𝗚𝗼𝗸𝘂-BOT
 
 
 #### DEPLOY TO Heroku 
